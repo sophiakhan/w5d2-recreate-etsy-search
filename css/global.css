@@ -19,7 +19,8 @@ img {
     padding: 10px;
 }
 
-.all-categories {
+.all-categories,
+.refine-search {
     background: white;
     border: .5px solid lightgrey;
 }
@@ -34,4 +35,11 @@ img {
 
 .all-categories > li:last-child {
     margin-bottom: 20px;
+}
+
+.refine-search > li {
+    margin: 0 0 0 20px;
+}
+.refine-search > li:first-child {
+    margin-top: 20px;
 }
