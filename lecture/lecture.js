@@ -57,44 +57,44 @@ function renderData() {
     data.forEach(createRow);
 }
 
-// --- Card Example
+--- Card Example
 
-// createCard({
-//     src: 'http://unsplash.it/400/300?image=500',
-//     caption: 'Unknown Image'
-// });
+createCard({
+    src: 'http://unsplash.it/400/300?image=500',
+    caption: 'Unknown Image'
+});
 
-// createCard({
-//     src: 'http://unsplash.it/400/300?image=600',
-//     caption: 'Mystery'
-// });
+createCard({
+    src: 'http://unsplash.it/400/300?image=600',
+    caption: 'Mystery'
+});
 
-// createCard({
-//     src: 'http://unsplash.it/400/300?image=700',
-//     caption: 'Something'
-// });
+createCard({
+    src: 'http://unsplash.it/400/300?image=700',
+    caption: 'Something'
+});
 
-// function createCard(image) {
-//     var card = `<div class="card">
-//         <img src="${image.src}" alt="Image" />
-//         <h5 class="card-caption">${image.caption}</h5>
-//     </div>`;
+function createCard(image) {
+    var card = `<div class="card">
+        <img src="${image.src}" alt="Image" />
+        <h5 class="card-caption">${image.caption}</h5>
+    </div>`;
 
-//     document.querySelector('#app').innerHTML += card; 
-// }
+    document.querySelector('#app').innerHTML += card; 
+}
 
-// function createCard(image) {
-//     var card = document.createElement('div');
-//     var cardImage = document.createElement('img');
-//     var cardCaption = document.createElement('h5');
+function createCard(image) {
+    var card = document.createElement('div');
+    var cardImage = document.createElement('img');
+    var cardCaption = document.createElement('h5');
 
-//     card.classList.add('card');
-//     cardImage.src = image.src;
-//     cardCaption.innerHTML = image.caption;
-//     cardCaption.classList.add('card-caption');
+    card.classList.add('card');
+    cardImage.src = image.src;
+    cardCaption.innerHTML = image.caption;
+    cardCaption.classList.add('card-caption');
 
-//     card.appendChild(cardImage);
-//     card.appendChild(cardCaption);
+    card.appendChild(cardImage);
+    card.appendChild(cardCaption);
 
-//     document.querySelector('#app').appendChild(card);
-// }
+    document.querySelector('#app').appendChild(card);
+}
