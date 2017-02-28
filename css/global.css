@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+#search-button {
+    margin-left: -7px;
+}
+
+.row-categories {
+    border: .5px solid lightgrey;
+}
+
+.shopping-categories li {
+    color: grey;
+    padding: 10px;
+}
+
+.all-categories {
+    background: white;
+    border: .5px solid lightgrey;
+}
+.all-categories > li {
+    margin: 0 0 0 20px;
+    padding: 2px;
+}
+
+.all-categories > li:first-child {
+    margin-top: 20px;
+}
+
+.all-categories > li:last-child {
+    margin-bottom: 20px;
+}
