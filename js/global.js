@@ -1,5 +1,4 @@
-//document.querySelector('.itemCards');
-
+// calls function that generates the html for each item and inputs a value for each property(?)
 createCard({
     src: 'https://unsplash.it/250?image=999',
     caption: 'Item 1',
@@ -84,6 +83,7 @@ createCard({
     price: 'Price 12'
 });
 
+// creates function that links to HTML file and creates outline for the cards
 
 function createCard(image) {
     var card = `<div class="col-sm-4">
