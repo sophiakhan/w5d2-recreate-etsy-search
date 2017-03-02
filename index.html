@@ -24,7 +24,7 @@
                                 <input type="text" class="form-control" id="searchInput" value="Board Games">
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary" id="search-button">Search</button>
+                            <button type="submit" class="btn btn-primary" id="search-button" onclick="searchClick">Search</button>
                         </form>
                     </li>
                 </ul>
@@ -57,7 +57,7 @@
     </div>
 </header>
 
-<body>
+<main>
     <div class="container well">
         <div class="row">
             <div class="col-sm-3">
@@ -182,15 +182,23 @@
             </div>
 
             <div class="col-sm-9">
-                <div class="row itemCards">
-
-               
+                <div class="row">
+                    <p class="col-sm-12">Did you mean the shop <a href="#" class="text-muted">boardgames</a>?</p>
                 </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p><a href="#" class="text-muted">All categories</a> “<strong>board games</strong>” (13,332 Results)</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Sort by: <strong>Relevancy </strong><span class="glyphicon glyphicon-triangle-bottom"</span></p>
+                    </div>
+                <div/>
+                <div class="row itemCards"></div>
             </div>
         </div>
     </div>
 
-</body>
+</main>
 
 
     <script src="js/global.js"></script>

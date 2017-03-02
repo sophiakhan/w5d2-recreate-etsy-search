@@ -84,8 +84,10 @@ body {
     background: black;
 }
 
+
+/*javascript styling*/
 .card {
-    margin: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     background: white;
     border: .5px solid lightgrey;
